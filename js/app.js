@@ -373,8 +373,7 @@
   /* ---------- Compartir ---------- */
 
   $('#compartir').addEventListener('click', async () => {
-    const canonica = $('link[rel="canonical"]');
-    const url = canonica ? canonica.href : location.href.split('#')[0];
+    const url = location.origin + location.pathname;
     const datos = { title: 'Antojitos “El Gody”', text: 'Mira el menú y los precios de Antojitos “El Gody” en Téllez:', url };
     if (navigator.share) {
       try { await navigator.share(datos); } catch (e) { /* el usuario canceló */ }

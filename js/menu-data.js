@@ -9,7 +9,7 @@
 window.GODY = {
   negocio: {
     nombre: 'Antojitos “El Gody”',
-    direccion: 'C. Nacionalismo 377, Jagüey de Téllez, Hidalgo',
+    direccion: 'Calle Nacionalismo s/n, Jagüey de Téllez, Hidalgo',
 
     // Número de WhatsApp para recibir pedidos: 52 + 10 dígitos, sin espacios.
     // Ejemplo: '527711234567'. Si se queda vacío, el cliente elige a quién mandar su pedido.
