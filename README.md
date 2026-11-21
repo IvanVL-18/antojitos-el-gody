@@ -2,7 +2,7 @@
 
 Menú en línea de Antojitos “El Gody”, en Jagüey de Téllez, Hidalgo: platillos, precios, cómo llegar y un pedido que se arma en el teléfono y se manda por WhatsApp.
 
-**Página:** https://ivanvl-18.github.io/antojitos-el-gody/
+**Página:** https://antojitos-el-gody-zku9.vercel.app/ (también se publica una copia en https://ivanvl-18.github.io/antojitos-el-gody/)
 
 ## Cambiar precios o platillos
 
@@ -14,7 +14,7 @@ git commit -m "Actualiza precios"
 git push
 ```
 
-GitHub Pages publica solo en uno o dos minutos. El listón de precios, las estampas de “desde $…” y los totales del pedido se calculan solos.
+Vercel y GitHub Pages publican solos en uno o dos minutos. El listón de precios, las estampas de “desde $…” y los totales del pedido se calculan solos.
 
 En ese mismo archivo, dentro de `negocio`:
 
@@ -28,7 +28,7 @@ En ese mismo archivo, dentro de `negocio`:
 
 ## Vista previa al compartir (WhatsApp y Facebook)
 
-La imagen está en `img/og-image.jpg` (1200 × 630). Si la cambias, sube también el número de `?v=1` en las etiquetas `og:image` de `index.html` para que WhatsApp y Facebook no muestren la vieja. Para refrescar Facebook al instante: https://developers.facebook.com/tools/debug/
+La imagen está en `img/og-image.jpg` (1200 × 630). Si la cambias, sube también el número de `?v=2` en las etiquetas `og:image` de `index.html` para que WhatsApp y Facebook no muestren la vieja. Para refrescar Facebook al instante: https://developers.facebook.com/tools/debug/
 
 ## Ver la página en tu computadora
 
